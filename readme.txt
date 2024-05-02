@@ -1,12 +1,14 @@
-OAuthGuard can be used to detect common vulnerabilities in Google sign in,
+OAuth 2.0 and OpenID Connect have been widely used as a Single Sign-On Service, as they ease the authentication process for users and the relying party(RP). According to studies, many real-world systems that are based on these protocols are vulnerable to attack. This is because these RPs often implement these protocols incorrectly in practice. OAuthGuard is a tool that helps secure Google OAuth 2.0 and OpenID Connect services. It works even if RPs do not implement these protocols correctly, protecting users' privacy and security.
+From a sample study of 137 sites, 69 were found to suffer at least one serious security vulnerability. OAuthGuard, protected users on 56 out of these 69 sites while the remaining 13 warned users about the insecure implementation.
 
-and protect user security and privacy when using Google sign in.
+OAuthGuard can be used to detect common vulnerabilities in Google sign in, protect user security and privacy when using Google sign in.
 
-How to install OAuthGuard on Chrome.
+Installation on Google Chrome: 
+1. Clone the Repo.
+2. Open Chrome Extensions.
+3. Check "Developer mode" option.
+4. Click on "Load Unpacked Extension".
+5. Select the Repo directory.
+6. Enjoy OAuthGuard.
 
-1. download latest Chrome web browser.
-2. use Chrome open chrome://extensions/
-3. check the "Developer mode" box.
-4. click the Load unpacked extension
-5. select the extension directory. e.g. /somepathto/OAuthGuard/, click select button of the popup window.
-6. enjoy OAuthGuard, you will find a small red icon on the right top corner of Chrome, click the icon to explore OAuthGuard
+You can authenticate yourself on various Google OAuth-SSO, and OAuthGuard will keep you protected.
